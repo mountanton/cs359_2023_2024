@@ -1,0 +1,19 @@
+  <h1>Registration Form</h1>
+                <form id="myForm" name="myForm" onsubmit='RegisterPOST();return false;'>
+                    <label for="username">username:</label><br>
+                    <input type="text"  id="username" name="username" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password"  name="password" id="password" required><br>
+                    Favourite Sports <br>
+                    <input type="radio" id="nba" name="sport" value="basketball" checked>
+                    <label for="nba">Basketball</label>
+                    <input type="radio" id="tennis" name="sport" value="tennis">
+                    <label for="tenis">Tennis</label><br>
+                    Team: <select id="team" name="team"> 
+                        <option value="dallas" selected="selected">Dallas</option>
+                        <option value="bucks">Milwaukee Bucks</option>
+                    </select>
+
+                    <br> Country:   <input id="country" name="country" value="" /> <br>
+                    <input type="submit" class="button" value="Register">
+                </form>
